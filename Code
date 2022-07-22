@@ -25,7 +25,7 @@ void student::signup()
     int var = 254;
     system("cls");
     fstream file;
-    cout << "\t   WELCOME TO AMRITSAR GROUP OF COLLAGE\n";
+    cout << "\t   WELCOME TO DSCET\n";
     cout << "\n\t------------------------------------------\n";
 	cout << "\t|          STUDENT SIGNUP PAGE              |\n";
 	cout << "\t------------------------------------------\n";
@@ -117,7 +117,7 @@ void student::showdata()
     s:
     system("cls");
     char ch;
-    cout << "\n\n\n\t\t\tWELCOME TO AMRITSAR GROUP OF COLLEGE , AMRITSAR(PUNJAB)\n\n\t\t MARKS CHECKING"<<endl;
+    cout << "\n\n\n\t\t\tWELCOME TO DSCET CHENNAI\n\n\t\t MARKS CHECKING"<<endl;
     string name, rollno;
     float  dcld1, datastructure1,oops1,coalp1,maths1;
     fstream file;
@@ -291,7 +291,7 @@ void teacher::selectteacher()
 	teacher ob;
     student ob2;
     s:
-	cout << "\t   WELCOME TO AMRITSAR GROUP OF COLLAGE\n";
+	cout << "\t   WELCOME DSCET\n";
     cout << "\n\t------------------------------------------\n";
 	cout << "\t|          STUDENT ADD & MODIFY MARKS         |\n";
 	cout << "\t------------------------------------------\n";
@@ -332,7 +332,7 @@ void teacher::teachersignup()
     int var = 254;
     system("cls");
     fstream file;
-    cout << "\t   WELCOME TO AMRITSAR GROUP OF COLLAGE\n";
+    cout << "\t   WELCOME TO DSCET\n";
     cout << "\n\t------------------------------------------\n";
 	cout << "\t|          TEACHER SIGNUP PAGE              |\n";
 	cout << "\t------------------------------------------\n";
@@ -526,7 +526,7 @@ void teacher::show2()
     s:
     system("cls");
     char ch;
-    cout << "\n\n\n\t\t\tWELCOME TO AMRITSAR GROUP OF COLLEGE , AMRITSAR(PUNJAB)\n\n\t\t MARKS CHECKING"<<endl;
+    cout << "\n\n\n\t\t\tWELCOME TO DSCET CHENNAI\n\n\t\t MARKS CHECKING"<<endl;
     string name, rollno;
     float  dcld1, datastructure1,oops1,coalp1,maths1;
     fstream file;
@@ -573,7 +573,7 @@ void logo()
 
     int mark=254;
     system("cls");
-    cout << "\n\n\n\t\t\tWELCOME TO AMRITSAR GROUP OF COLLEGE , AMRITSAR(PUNJAB)"<<endl;
+    cout << "\n\n\n\t\t\tWELCOME TO DSCET CHENNAI"<<endl;
     system("color 2");
     cout << "\n\t\t\tPlease Wait";
     for (int i = 0; i < 8; i++)
@@ -591,7 +591,7 @@ int main()
         int c;
         start:
         system("cls");
-        cout << "\t\t\tWELCOME TO AMRITSAR GROUP OF COLLAGE\n";
+        cout << "\t\t\tWELCOME TO DSCET \n";
         cout << "\n\t\t\t\t(1)TEACHER LOGIN";
         cout << "\n\t\t\t\t(2)STUDENT LOGIN";
         cout << "\n\n\t\t\tENTER YOUR CHOICE=";
